@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on gustavo bueno blog</title>
-    <link>http://localhost:1313/categories/tech/</link>
+    <link>https://gustavobuenoblogapp.com/categories/tech/</link>
     <description>Recent content in Tech on gustavo bueno blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 23 Sep 2024 16:55:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gustavobuenoblogapp.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O que é GOLANG?</title>
-      <link>http://localhost:1313/1post/</link>
+      <link>https://gustavobuenoblogapp.com/1post/</link>
       <pubDate>Mon, 23 Sep 2024 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/1post/</guid>
+      <guid>https://gustavobuenoblogapp.com/1post/</guid>
       <description>&lt;h1 id=&#34;criação&#34;&gt;Criação&lt;/h1&gt;&#xA;&lt;p&gt;A linguagem GO foi criada pelo Google em 2007 e lançada em 2009.&#xA;Seus criadores foram &lt;strong&gt;Robert Griesemer, Rob Pike e Ken Thompson.&lt;/strong&gt; Todos eles possuem uma vasta experiência na criação de sistemas de software.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;motivação&#34;&gt;Motivação&lt;/h1&gt;&#xA;&lt;p&gt;GO foi projetado para resolver algumas limitações das linguagens usadas na Google. Como:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python: lentidão&lt;/li&gt;&#xA;&lt;li&gt;C/C++: complexo e demora para compilar&lt;/li&gt;&#xA;&lt;li&gt;Java: muito verboso e complexo de atualizar com o tempo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;o-que-foi-feito&#34;&gt;O que foi feito&lt;/h1&gt;&#xA;&lt;p&gt;Criaram então uma linguagem que tinha como seus princípios:&lt;/p&gt;</description>
     </item>
   </channel>

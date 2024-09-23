@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://gustavobuenoblogapp.com/authors/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://gustavobuenoblogapp.com/categories/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/golang/</loc>
+    <loc>https://gustavobuenoblogapp.com/categories/golang/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/gustavo-blog/</loc>
+    <loc>https://gustavobuenoblogapp.com/authors/gustavo-blog/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://gustavobuenoblogapp.com/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/1post/</loc>
+    <loc>https://gustavobuenoblogapp.com/1post/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>https://gustavobuenoblogapp.com/categories/tech/</loc>
     <lastmod>2024-09-23T16:55:24+01:00</lastmod>
   </url>
 </urlset>
