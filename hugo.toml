@@ -1,11 +1,11 @@
-baseURL = 'https://hugoblogapp.com'
-languageCode = 'en-us'
-title = 'Lama dev blog'
+baseURL = 'https://gustavobuenoblogapp.com'
+languageCode = 'pt-br'
+title = 'gustavo bueno blog'
 
 paginate = 4
 
 [params]
-  description = "The fastest blog"
+  description = "Blog sobre tecnologia e livros"
   dateFormat = "Jan 2, 2006"
 
 [taxonomies]
