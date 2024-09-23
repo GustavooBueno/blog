@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on gustavo bueno blog</title>
-    <link>https://gustavobuenoblogapp.com/categories/</link>
+    <link>https://gustavobuenoblog.netlify.app/categories/</link>
     <description>Recent content in Categories on gustavo bueno blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 23 Sep 2024 16:55:24 +0100</lastBuildDate>
-    <atom:link href="https://gustavobuenoblogapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gustavobuenoblog.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golang</title>
-      <link>https://gustavobuenoblogapp.com/categories/golang/</link>
+      <link>https://gustavobuenoblog.netlify.app/categories/golang/</link>
       <pubDate>Mon, 23 Sep 2024 16:55:24 +0100</pubDate>
-      <guid>https://gustavobuenoblogapp.com/categories/golang/</guid>
+      <guid>https://gustavobuenoblog.netlify.app/categories/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://gustavobuenoblogapp.com/categories/tech/</link>
+      <link>https://gustavobuenoblog.netlify.app/categories/tech/</link>
       <pubDate>Mon, 23 Sep 2024 16:55:24 +0100</pubDate>
-      <guid>https://gustavobuenoblogapp.com/categories/tech/</guid>
+      <guid>https://gustavobuenoblog.netlify.app/categories/tech/</guid>
       <description></description>
     </item>
   </channel>

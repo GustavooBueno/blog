@@ -1,4 +1,4 @@
-baseURL = 'https://gustavobuenoblogapp.com'
+baseURL = 'https://gustavobuenoblog.netlify.app/'
 languageCode = 'pt-br'
 title = 'gustavo bueno blog'
 
