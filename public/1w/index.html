@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=Explicação&#32;geral&#32;sobre&#32;golang&#32;para&#32;quem&#32;tem&#32;interesse&#32;em&#32;iniciar&#32;com&#32;a&#32;linguagem>
+  <meta name="description" content=Como&#32;funciona&#32;a&#32;declaração&#32;e&#32;atribuição&#32;de&#32;variáveis&#32;em&#32;GO>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
-  <title>O que é GOLANG?</title>
+  <title>Declaração e atribuição de variáveis em GOLANG</title>
 </head>
 <body>
   <div class="container">
@@ -82,78 +82,86 @@
 <div class="single">
   <div class="singleHead">
     <div class="singleHeadTexts">
-      <h1 class="singleHeadTitle">O que é GOLANG?</h1>
-      <p class="singleHeadDesc">Explicação geral sobre golang para quem tem interesse em iniciar com a linguagem</p>
+      <h1 class="singleHeadTitle">Declaração e atribuição de variáveis em GOLANG</h1>
+      <p class="singleHeadDesc">Como funciona a declaração e atribuição de variáveis em GO</p>
       <div class="singleHeadDetail">
         <img src=/images/avatar1.jpeg loading="lazy" alt="" class="singleAvatar">
         <span>
-          <a href=https://gustavobuenoblog.netlify.app/authors/gustavo-bueno/>Gustavo Bueno</a>
+          <a href=http://localhost:1313/authors/gustavo-bueno/>Gustavo Bueno</a>
           
         </span>
         
-        <a href=https://gustavobuenoblog.netlify.app/categories/golang/ class="singleCategory">golang</a>
+        <a href=http://localhost:1313/categories/golang/ class="singleCategory">golang</a>
         
-        <a href=https://gustavobuenoblog.netlify.app/categories/tech/ class="singleCategory">tech</a>
+        <a href=http://localhost:1313/categories/tech/ class="singleCategory">tech</a>
         
       </div>
-      <time>Sep 23, 2024</time>
+      <time>Sep 24, 2024</time>
     </div>
-    <img src=/images/p1golang.png alt=O&#32;que&#32;é&#32;GOLANG? class="singleHeadImg">
+    <img src=/images/p2golang.png alt=Declaração&#32;e&#32;atribuição&#32;de&#32;variáveis&#32;em&#32;GOLANG class="singleHeadImg">
   </div>
   <div class="singleBottom">
-    <div class="singleContent"><h1 id="criação">Criação</h1>
-<p>A linguagem GO foi criada pelo Google em 2007 e lançada em 2009.
-Seus criadores foram <strong>Robert Griesemer, Rob Pike e Ken Thompson.</strong> Todos eles possuem uma vasta experiência na criação de sistemas de software.</p>
-<hr>
-<h1 id="motivação">Motivação</h1>
-<p>GO foi projetado para resolver algumas limitações das linguagens usadas na Google. Como:</p>
+    <div class="singleContent"><h1 id="a-regra-de-go">A regra de GO</h1>
 <ul>
-<li>Python: lentidão</li>
-<li>C/C++: complexo e demora para compilar</li>
-<li>Java: muito verboso e complexo de atualizar com o tempo</li>
+<li>Variáveis que forem declaradas devem ser utilizadas, se não o programa irá apontar um erro.</li>
+<li>A delcaração pode ocorrer de forma <strong>explícita</strong> ou <strong>implícita</strong>.</li>
 </ul>
 <hr>
-<h1 id="o-que-foi-feito">O que foi feito</h1>
-<p>Criaram então uma linguagem que tinha como seus princípios:</p>
-<ul>
-<li>ter uma sintaxe simples</li>
-<li>possuir frameworks de testes nativos</li>
-<li>possuir ferramentas para multithreading</li>
-<li>detecção de race conditions</li>
-<li>deploy simples</li>
-<li>baixa curva de aprendizado</li>
-</ul>
+<h1 id="forma-explícita">Forma explícita</h1>
+<p><code>var x int</code></p>
 <hr>
-<h1 id="em-que-situação-devemos-usar-go">Em que situação devemos usar GO</h1>
-<p>Quando queremos <strong>performance</strong> em nossa aplicação.</p>
+<h1 id="forma-implícita">Forma implícita</h1>
+<p><code>var z = 10</code>
+Go infere que z é do tipo int</p>
 <hr>
-<h1 id="características-da-linguagem">Características da linguagem</h1>
-<ol>
-<li>Tipada</li>
-<li>Compilada (compila rapidamente em um árquivo binário e possui garbage collection)</li>
-<li>Expressiva (sem muita firula)</li>
-<li>Retrocompatível (software feito na versão 1.15, vai funcionar na 1.16)</li>
-<li>Open-source</li>
-</ol>
-<hr>
-<h1 id="conteúdos-brasileiros-para-aprender">Conteúdos brasileiros para aprender</h1>
-<p>Venho estudando GO, e existe uma comunidade muito legal no Brasil para ajudar no aprendizado da linguagem, vou deixar algumas referências que tenho usado (se tiverem outras indicações podem sugerir):</p>
-<ul>
-<li><a href="https://go.dev/doc/">documentação oficial</a></li>
-<li><a href="https://aprendagolang.com.br/">aprendagolang - blog de GO</a></li>
-<li><a href="https://www.youtube.com/@laislima_dev/featured">Lais Limas - canal YouTube</a></li>
-<li><a href="https://gobyexample.com/">gobyexample - exemplos de códigos</a></li>
-<li><a href="https://www.youtube.com/watch?v=WiGU_ZB-u0w&amp;list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg&amp;ab_channel=AprendaGo">Aprenda Go - curso gratuito</a></li>
-<li><a href="https://app.devgym.com.br/plans">Devgym - desafios</a></li>
-<li><a href="https://www.asemanago.dev/">asemanago - newsletter</a></li>
-<li><a href="https://www.youtube.com/watch?v=MNE_grboFPM&amp;list=PL0qudqr7_CuStQUsf2vtHXMxOp5gl_ENc&amp;ab_channel=EltonMinetto">Elton Minetto - curso gratuito</a></li>
-<li><a href="https://www.boot.dev/tracks/backend">boot.dev - exercícios golang</a></li>
-<li><a href="https://goexpert.fullcycle.com.br/pos-goexpert/">Full Cycle - pós graduação</a></li>
-</ul>
-<hr>
-<h1 id="conclusão">Conclusão</h1>
-<p>GO é uma linguagem incrível que vem crescendo muito no mercado. Se você possui interesse em aprender mais sobre performance, vale muito a pena. Além disso, a linguagem é muito versátil e após entender a sintaxe, fica muito gostoso de programar com ela. A comunidade brasileira é muito fera, vale a pena acompanhar seja no Youtube, blogs ou Linkedin. Venha ser um Gopher também!</p>
-</div>
+<h1 id="múltiplas-declarações">Múltiplas declarações</h1>
+<p>Podemos fazer:
+<code>var a, b, c int</code>
+Ou então:</p>
+<pre tabindex="0"><code class="language-var(" data-lang="var(">    a int
+    b string
+    c float64
+) ```
+
+---
+
+# Atribuição
+Atribuição pode ser feita de forma **separada** ou **direto** na declaração
+- Direto:
+`var y string = &#34;Hello, Go!&#34;`
+- Separada:
+`var y string&#34;`
+`y = &#34;Hello, Go!&#34;`
+
+--- 
+
+# Declaração curta
+Muito utilizado. Não usa var, declara e atribui.
+`x := 10`
+Go infere que &#39;x&#39; é do tipo int.
+O := deve ser usado apenas quando estiver declarando a variável.
+
+--- 
+
+# Valores das variáveis declaradas
+Quando declaramos uma variável, mas não atribuimos nenhum valor a ela. Podemos ter os seguintes casos em GO:
+- int e float serão 0
+- string será &#34;&#34;
+- bool será false
+- Ponteiros, slices, maps, channels, interfaces, e funções são nil
+
+--- 
+
+# Constantes
+Em Go temos também as constantes
+`const pi = 3.14`
+
+---
+
+# Escopo
+- **Escopo de Pacote**: Variáveis declaradas fora das funções, no topo do arquivo, são acessíveis em todo o pacote.
+- **Escopo de Função**: Variáveis declaradas dentro de uma função são locais àquela função.
+</code></pre></div>
     <div class="singleRightBar">
       <div class="rightBar">
 </div>

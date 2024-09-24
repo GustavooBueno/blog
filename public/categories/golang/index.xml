@@ -6,14 +6,21 @@
     <description>Recent content in Golang on gustavo bueno blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 24 Sep 2024 08:00:24 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 08:30:24 +0100</lastBuildDate>
     <atom:link href="https://gustavobuenoblog.netlify.app/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Declaração e atribuição de variáveis em GOLANG</title>
+      <link>https://gustavobuenoblog.netlify.app/3post/</link>
+      <pubDate>Tue, 24 Sep 2024 08:30:24 +0100</pubDate>
+      <guid>https://gustavobuenoblog.netlify.app/3post/</guid>
+      <description>&lt;h1 id=&#34;a-regra-de-go&#34;&gt;A regra de GO&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Variáveis que forem declaradas devem ser utilizadas, se não o programa irá apontar um erro.&lt;/li&gt;&#xA;&lt;li&gt;A declaração pode ocorrer de forma &lt;strong&gt;explícita&lt;/strong&gt; ou &lt;strong&gt;implícita&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;forma-explícita&#34;&gt;Forma explícita&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;var x int&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;forma-implícita&#34;&gt;Forma implícita&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;var z = 10&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Go infere que z é do tipo int&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;múltiplas-declarações&#34;&gt;Múltiplas declarações&lt;/h1&gt;&#xA;&lt;p&gt;Podemos fazer:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;var a, b, c int&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ou então:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;var(&#xA;    a int&#xA;    b string&#xA;    c float64&#xA;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h1 id=&#34;atribuição&#34;&gt;Atribuição&lt;/h1&gt;&#xA;&lt;p&gt;Atribuição pode ser feita de forma &lt;strong&gt;direta&lt;/strong&gt; ou &lt;strong&gt;separada&lt;/strong&gt; na declaração&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Primeiro hello world em GOLANG</title>
       <link>https://gustavobuenoblog.netlify.app/2post/</link>
       <pubDate>Tue, 24 Sep 2024 08:00:24 +0100</pubDate>
       <guid>https://gustavobuenoblog.netlify.app/2post/</guid>
-      <description>&lt;h1 id=&#34;código-que-será-utilizado&#34;&gt;Código que será utilizado&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main&#xA;&#xA;import &amp;#34;fmt&amp;#34;&#xA;&#xA;func main() {&#xA;    fmt.Println(&amp;#34;Hello, World!&amp;#34;)&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h1 id=&#34;package-main&#34;&gt;package main&lt;/h1&gt;&#xA;&lt;p&gt;Todo código GO começa com a declaração de um pacote. O pacote main é o ponto de partida do programa. Quando é feita a execução de um programa GO, ele procura a função main.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;import-fmt&#34;&gt;import &amp;ldquo;fmt&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;Importa o pacote fmt (abreviação de format). É um pacote com funções para formatar entrada e saída de dados.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;código-que-será-utilizado&#34;&gt;Código que será utilizado&lt;/h1&gt;&#xA;&lt;p&gt;Primeiramente crie um arquivo main.go e cole o seguinte código:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main&#xA;&#xA;import &amp;#34;fmt&amp;#34;&#xA;&#xA;func main() {&#xA;    fmt.Println(&amp;#34;Hello, World!&amp;#34;)&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Rode no terminal o comando: &lt;code&gt;go run main.go&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;package-main&#34;&gt;package main&lt;/h1&gt;&#xA;&lt;p&gt;Todo código GO começa com a declaração de um pacote. O pacote main é o ponto de partida do programa. Quando é feita a execução de um programa GO, ele procura a função main.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;import-fmt&#34;&gt;import &amp;ldquo;fmt&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;Importa o pacote fmt (abreviação de format). É um pacote com funções para formatar entrada e saída de dados.&lt;/p&gt;</description>
     </item>
     <item>
       <title>O que é GOLANG?</title>

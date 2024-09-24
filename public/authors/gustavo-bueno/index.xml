@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gustavo bueno blog</title>
-    <link>https://gustavobuenoblog.netlify.app/</link>
-    <description>Recent content on gustavo bueno blog</description>
+    <title>Gustavo Bueno on gustavo bueno blog</title>
+    <link>https://gustavobuenoblog.netlify.app/authors/gustavo-bueno/</link>
+    <description>Recent content in Gustavo Bueno on gustavo bueno blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 24 Sep 2024 08:30:24 +0100</lastBuildDate>
-    <atom:link href="https://gustavobuenoblog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gustavobuenoblog.netlify.app/authors/gustavo-bueno/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Declaração e atribuição de variáveis em GOLANG</title>
       <link>https://gustavobuenoblog.netlify.app/3post/</link>

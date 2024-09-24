@@ -6,11 +6,12 @@ description = "Entendendo as primeiras linhas de código"
 image = "/images/p2golang.png"
 imageBig = "/images/p2golang.png"
 categories = ["golang", "tech"]
-authors = ["Gustavo Blog"]
+authors = ["Gustavo Bueno"]
 avatar = "/images/avatar1.jpeg"
 +++
 
 # Código que será utilizado
+Primeiramente crie um arquivo main.go e cole o seguinte código:
 ```
 package main
 
@@ -20,6 +21,8 @@ func main() {
     fmt.Println("Hello, World!")
 }
 ```
+
+Rode no terminal o comando: `go run main.go`
 
 ---
 

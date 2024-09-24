@@ -6,7 +6,7 @@ description = "Explicação geral sobre golang para quem tem interesse em inicia
 image = "/images/p1golang.png"
 imageBig = "/images/p1golang.png"
 categories = ["golang", "tech"]
-authors = ["Gustavo Blog"]
+authors = ["Gustavo Bueno"]
 avatar = "/images/avatar1.jpeg"
 +++
 
