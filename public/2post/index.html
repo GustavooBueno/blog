@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=Explicação&#32;geral&#32;sobre&#32;golang&#32;para&#32;quem&#32;tem&#32;interesse&#32;em&#32;iniciar&#32;com&#32;a&#32;linguagem>
+  <meta name="description" content=Entendendo&#32;as&#32;primeiras&#32;linhas&#32;de&#32;código>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
-  <title>O que é GOLANG?</title>
+  <title>Primeiro hello world em GOLANG</title>
 </head>
 <body>
   <div class="container">
@@ -82,82 +82,49 @@
 <div class="single">
   <div class="singleHead">
     <div class="singleHeadTexts">
-      <h1 class="singleHeadTitle">O que é GOLANG?</h1>
-      <p class="singleHeadDesc">Explicação geral sobre golang para quem tem interesse em iniciar com a linguagem</p>
+      <h1 class="singleHeadTitle">Primeiro hello world em GOLANG</h1>
+      <p class="singleHeadDesc">Entendendo as primeiras linhas de código</p>
       <div class="singleHeadDetail">
         <img src=/images/avatar1.jpeg loading="lazy" alt="" class="singleAvatar">
         <span>
-          <a href=http://localhost:1313/authors/gustavo-blog/>Gustavo Blog</a>
+          <a href=https://gustavobuenoblog.netlify.app/authors/gustavo-blog/>Gustavo Blog</a>
           
         </span>
         
-        <a href=http://localhost:1313/categories/golang/ class="singleCategory">golang</a>
+        <a href=https://gustavobuenoblog.netlify.app/categories/golang/ class="singleCategory">golang</a>
         
-        <a href=http://localhost:1313/categories/tech/ class="singleCategory">tech</a>
+        <a href=https://gustavobuenoblog.netlify.app/categories/tech/ class="singleCategory">tech</a>
         
       </div>
-      <time>Sep 23, 2024</time>
+      <time>Sep 24, 2024</time>
     </div>
-    <img src=/images/p1golang.png alt=O&#32;que&#32;é&#32;GOLANG? class="singleHeadImg">
+    <img src=/images/p2golang.png alt=Primeiro&#32;hello&#32;world&#32;em&#32;GOLANG class="singleHeadImg">
   </div>
   <div class="singleBottom">
-    <div class="singleContent"><h1 id="criação">Criação</h1>
-<p>A linguagem GO foi criada pelo Google em 2007 e lançada em 2009.
-Seus criadores foram <strong>Robert Griesemer, Rob Pike e Ken Thompson.</strong> Todos eles possuem uma vasta experiência na criação de sistemas de software.</p>
+    <div class="singleContent"><h1 id="código-que-será-utilizado">Código que será utilizado</h1>
+<pre tabindex="0"><code>package main
+
+import &#34;fmt&#34;
+
+func main() {
+    fmt.Println(&#34;Hello, World!&#34;)
+}
+</code></pre><hr>
+<h1 id="package-main">package main</h1>
+<p>Todo código GO começa com a declaração de um pacote. O pacote main é o ponto de partida do programa. Quando é feita a execução de um programa GO, ele procura a função main.</p>
 <hr>
-<h1 id="motivação">Motivação</h1>
-<p>GO foi projetado para resolver algumas limitações das linguagens usadas na Google. Como:</p>
-<ul>
-<li>Python: lentidão</li>
-<li>C/C++: complexo e demora para compilar</li>
-<li>Java: muito verboso e complexo de atualizar com o tempo</li>
-</ul>
+<h1 id="import-fmt">import &ldquo;fmt&rdquo;</h1>
+<p>Importa o pacote fmt (abreviação de format). É um pacote com funções para formatar entrada e saída de dados.</p>
 <hr>
-<h1 id="o-que-foi-feito">O que foi feito</h1>
-<p>Criaram então uma linguagem que tinha como seus princípios:</p>
-<ul>
-<li>ter uma sintaxe simples</li>
-<li>possuir frameworks de testes nativos</li>
-<li>possuir ferramentas para multithreading</li>
-<li>detecção de race conditions</li>
-<li>deploy simples</li>
-<li>baixa curva de aprendizado</li>
-</ul>
+<h1 id="func-main">func main()</h1>
+<p>Função principal de um programa GO. Toda execução começa por essa função.</p>
 <hr>
-<h1 id="em-que-situação-devemos-usar-go">Em que situação devemos usar GO</h1>
-<p>Quando queremos <strong>performance</strong> em nossa aplicação.</p>
-<hr>
-<h1 id="características-da-linguagem">Características da linguagem</h1>
-<ol>
-<li>Tipada</li>
-<li>Compilada (compila rapidamente em um árquivo binário e possui garbage collection)</li>
-<li>Expressiva (sem muita firula)</li>
-<li>Retrocompatível (software feito na versão 1.15, vai funcionar na 1.16)</li>
-<li>Open-source</li>
-</ol>
-<hr>
-<h1 id="conteúdos-brasileiros-para-aprender">Conteúdos brasileiros para aprender</h1>
-<p>Venho estudando GO, e existe uma comunidade muito legal no Brasil para ajudar no aprendizado da linguagem, vou deixar algumas referências que tenho usado (se tiverem outras indicações podem sugerir):</p>
-<ul>
-<li><a href="https://go.dev/doc/">documentação oficial</a></li>
-<li><a href="https://aprendagolang.com.br/">aprendagolang - blog de GO</a></li>
-<li><a href="https://www.youtube.com/@laislima_dev/featured">Lais Limas - canal YouTube</a></li>
-<li><a href="https://gobyexample.com/">gobyexample - exemplos de códigos</a></li>
-<li><a href="https://www.youtube.com/watch?v=WiGU_ZB-u0w&amp;list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg&amp;ab_channel=AprendaGo">Aprenda Go - curso gratuito</a></li>
-<li><a href="https://app.devgym.com.br/plans">Devgym - desafios</a></li>
-<li><a href="https://www.asemanago.dev/">asemanago - newsletter</a></li>
-<li><a href="https://www.youtube.com/watch?v=MNE_grboFPM&amp;list=PL0qudqr7_CuStQUsf2vtHXMxOp5gl_ENc&amp;ab_channel=EltonMinetto">Elton Minetto - curso gratuito</a></li>
-<li><a href="https://www.boot.dev/tracks/backend">boot.dev - exercícios golang</a></li>
-<li><a href="https://goexpert.fullcycle.com.br/pos-goexpert/">Full Cycle - pós graduação</a></li>
-</ul>
-<hr>
-<h1 id="conclusão">Conclusão</h1>
-<p>GO é uma linguagem incrível que vem crescendo muito no mercado. Se você possui interesse em aprender mais sobre performance, vale muito a pena. Além disso, a linguagem é muito versátil e após entender a sintaxe, fica muito gostoso de programar com ela. A comunidade brasileira é muito fera, vale a pena acompanhar seja no Youtube, blogs ou Linkedin. Venha ser um Gopher também!</p>
+<h1 id="fmtprintlnhello-world">fmt.Println(&ldquo;Hello, World!&rdquo;)</h1>
+<p>Usando o pacote fmt, chamamos a função Println que vai imprimir o &ldquo;Hello World&rdquo; no console e adicionar uma linha no final.
+Se não quisessemos a linha no final, poderíamos usar a função Print em vez da Println.</p>
 </div>
     <div class="singleRightBar">
       <div class="rightBar">
-  <img src="/images/ads.webp" alt="ad" class="rightBarImg">
-  <img src="/images/adh.webp" alt="ad" class="rightBarImgHr">
 </div>
     </div>
   </div>
