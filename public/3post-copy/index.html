@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=Blog&#32;sobre&#32;tecnologia&#32;e&#32;livros>
+  <meta name="description" content=Como&#32;funciona&#32;a&#32;declaração&#32;e&#32;atribuição&#32;de&#32;variáveis&#32;em&#32;GO>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
-  <title>Categories</title>
+  <title>Declaração e atribuição de variáveis em GOLANG</title>
 </head>
 <body>
   <div class="container">
@@ -78,18 +78,96 @@
   </div>
 </nav>
 
-     
- 
+    
+<div class="single">
+  <div class="singleHead">
+    <div class="singleHeadTexts">
+      <h1 class="singleHeadTitle">Declaração e atribuição de variáveis em GOLANG</h1>
+      <p class="singleHeadDesc">Como funciona a declaração e atribuição de variáveis em GO</p>
+      <div class="singleHeadDetail">
+        <img src=/images/avatar1.jpeg loading="lazy" alt="" class="singleAvatar">
+        <span>
+          <a href=http://localhost:1313/authors/gustavo-bueno/>Gustavo Bueno</a>
+          
+        </span>
+        
+        <a href=http://localhost:1313/categories/golang/ class="singleCategory">golang</a>
+        
+        <a href=http://localhost:1313/categories/tech/ class="singleCategory">tech</a>
+        
+      </div>
+      <time>Sep 24, 2024</time>
+    </div>
+    <img src=/images/p3golang.png alt=Declaração&#32;e&#32;atribuição&#32;de&#32;variáveis&#32;em&#32;GOLANG class="singleHeadImg">
+  </div>
+  <div class="singleBottom">
+    <div class="singleContent"><h1 id="a-regra-de-go">A regra de GO</h1>
+<ul>
+<li>Variáveis que forem declaradas devem ser utilizadas, se não o programa irá apontar um erro.</li>
+<li>A declaração pode ocorrer de forma <strong>explícita</strong> ou <strong>implícita</strong>.</li>
+</ul>
+<hr>
+<h1 id="forma-explícita">Forma explícita</h1>
+<p><code>var x int</code></p>
+<hr>
+<h1 id="forma-implícita">Forma implícita</h1>
+<p><code>var z = 10</code></p>
+<p>Go infere que z é do tipo int</p>
+<hr>
+<h1 id="múltiplas-declarações">Múltiplas declarações</h1>
+<p>Podemos fazer:</p>
+<p><code>var a, b, c int</code></p>
+<p>Ou então:</p>
+<pre tabindex="0"><code>var(
+    a int
+    b string
+    c float64
+)
+</code></pre><hr>
+<h1 id="atribuição">Atribuição</h1>
+<p>Atribuição pode ser feita de forma <strong>direta</strong> ou <strong>separada</strong> na declaração</p>
+<ul>
+<li>Direto:</li>
+</ul>
+<p><code>var y string = &quot;Hello, Go!&quot;</code></p>
+<ul>
+<li>Separada:</li>
+</ul>
+<p><code>var y string</code></p>
+<p><code>y = &quot;Hello, Go!&quot;</code></p>
+<hr>
+<h1 id="declaração-curta">Declaração curta</h1>
+<p><strong>Muito utilizado</strong>. Não usa var, declara e atribui.</p>
+<p><code>x := 10</code></p>
+<p>Go infere que &lsquo;x&rsquo; é do tipo int.</p>
+<p>O := deve ser usado apenas quando estiver declarando a variável.</p>
+<hr>
+<h1 id="valores-das-variáveis-declaradas">Valores das variáveis declaradas</h1>
+<p>Quando declaramos uma variável, mas não atribuimos nenhum valor a ela. Podemos ter os seguintes casos em GO:</p>
+<ul>
+<li>int e float serão 0</li>
+<li>string será &quot;&quot;</li>
+<li>bool será false</li>
+<li>Ponteiros, slices, maps, channels, interfaces, e funções são nil</li>
+</ul>
+<hr>
+<h1 id="constantes">Constantes</h1>
+<p>Em Go temos também as constantes</p>
+<p><code>const pi = 3.14</code></p>
+<hr>
+<h1 id="escopo">Escopo</h1>
+<ul>
+<li><strong>Escopo de Pacote</strong>: Variáveis declaradas fora das funções, no topo do arquivo, são acessíveis em todo o pacote.</li>
+<li><strong>Escopo de Função</strong>: Variáveis declaradas dentro de uma função são locais àquela função.</li>
+</ul>
+</div>
+    <div class="singleRightBar">
+      <div class="rightBar">
+</div>
+    </div>
+  </div>
+</div>
 
-  <a href="/categories/golang">
-    # golang <small>(5)</small>
-  </a>
-
-  <a href="/categories/tech">
-    # tech <small>(5)</small>
-  </a>
-
- 
     <div class="footer">
   <div class="footerLinks">
     <a href="/">gustavo blog</a> | <a href="/categories">categories</a>

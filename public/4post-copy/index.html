@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=Blog&#32;sobre&#32;tecnologia&#32;e&#32;livros>
+  <meta name="description" content=Passando&#32;pelos&#32;tipos&#32;que&#32;existem&#32;em&#32;GO>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
-  <title>Categories</title>
+  <title>Tipos em GOLANG</title>
 </head>
 <body>
   <div class="container">
@@ -78,18 +78,93 @@
   </div>
 </nav>
 
-     
- 
+    
+<div class="single">
+  <div class="singleHead">
+    <div class="singleHeadTexts">
+      <h1 class="singleHeadTitle">Tipos em GOLANG</h1>
+      <p class="singleHeadDesc">Passando pelos tipos que existem em GO</p>
+      <div class="singleHeadDetail">
+        <img src=/images/avatar1.jpeg loading="lazy" alt="" class="singleAvatar">
+        <span>
+          <a href=http://localhost:1313/authors/gustavo-bueno/>Gustavo Bueno</a>
+          
+        </span>
+        
+        <a href=http://localhost:1313/categories/golang/ class="singleCategory">golang</a>
+        
+        <a href=http://localhost:1313/categories/tech/ class="singleCategory">tech</a>
+        
+      </div>
+      <time>Sep 25, 2024</time>
+    </div>
+    <img src=/images/p4golang.png alt=Tipos&#32;em&#32;GOLANG class="singleHeadImg">
+  </div>
+  <div class="singleBottom">
+    <div class="singleContent"><h1 id="tipos-básicos">Tipos básicos</h1>
+<ol>
+<li>
+<p>Tipos Numéricos Inteiros</p>
+<ul>
+<li>int - inteiro</li>
+<li>uint - inteiro sem sinal</li>
+</ul>
+</li>
+<li>
+<p>Tipos Numéricos de Ponto Flutuante</p>
+<ul>
+<li>float32 ou float64</li>
+</ul>
+</li>
+<li>
+<p>Booleanos</p>
+<ul>
+<li>bool</li>
+</ul>
+</li>
+<li>
+<p>Strings</p>
+<ul>
+<li>string</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1 id="tamanho-das-variáveis">Tamanho das variáveis</h1>
+<p>Podemos especificar o tamanho das variáveis em bits: int8, int16, int32, int64</p>
+<hr>
+<h1 id="como-criar-um-tipo">Como criar um tipo</h1>
+<pre tabindex="0"><code>package main
 
-  <a href="/categories/golang">
-    # golang <small>(5)</small>
-  </a>
+import &#34;fmt&#34;
 
-  <a href="/categories/tech">
-    # tech <small>(5)</small>
-  </a>
+type ID string
 
- 
+func main() {
+	var palavra ID = &#34;IDteste&#34;
+
+	fmt.Println(palavra)
+}
+</code></pre><p>Escreva type (nome do tipo) (tipo)</p>
+<hr>
+<h1 id="como-printar-uma-variável-baseado-em-seu-tipo">Como printar uma variável baseado em seu tipo</h1>
+<p>Principais:</p>
+<ol>
+<li>%d - inteiro</li>
+<li>%f - ponto flutuante (%.2f para definir casas decimais)</li>
+<li>%s - string</li>
+<li>%t - booleano</li>
+<li>%p - ponteiro</li>
+<li>%v - qualquer valor</li>
+</ol>
+</div>
+    <div class="singleRightBar">
+      <div class="rightBar">
+</div>
+    </div>
+  </div>
+</div>
+
     <div class="footer">
   <div class="footerLinks">
     <a href="/">gustavo blog</a> | <a href="/categories">categories</a>

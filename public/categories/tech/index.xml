@@ -6,8 +6,22 @@
     <description>Recent content in Tech on gustavo bueno blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 24 Sep 2024 08:30:24 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 21:30:24 +0100</lastBuildDate>
     <atom:link href="https://gustavobuenoblog.netlify.app/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arrays em GOLANG</title>
+      <link>https://gustavobuenoblog.netlify.app/5post/</link>
+      <pubDate>Wed, 25 Sep 2024 21:30:24 +0100</pubDate>
+      <guid>https://gustavobuenoblog.netlify.app/5post/</guid>
+      <description>&lt;h1 id=&#34;definição&#34;&gt;Definição&lt;/h1&gt;&#xA;&lt;p&gt;Em Golang, arrays são uma coleção de elementos do mesmo tipo com tamanho fixo, definidos no momento da declaração.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;sintaxe-básica&#34;&gt;Sintaxe básica&lt;/h1&gt;&#xA;&lt;p&gt;Modelo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;var nomeArray [tamanho]tipo&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Exemplo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;var numeros [5]int&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;inicialização&#34;&gt;Inicialização&lt;/h1&gt;&#xA;&lt;p&gt;Podemos inicializar os elementos do array no momento da declaração&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;var letras = [3]string{&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;}&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;como-acessar-os-elementos&#34;&gt;Como acessar os elementos&lt;/h1&gt;&#xA;&lt;p&gt;Você pode acessar e modificar os elementos de um array usando o índice (começando em 0)&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;numeros[0] = 10   // Altera o primeiro elemento do array para 10&#xA;fmt.Println(numeros[0])  // Exibe o valor do primeiro elemento&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h1 id=&#34;comprimento-de-arrays&#34;&gt;Comprimento de arrays&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;fmt.Println(len(numeros))  // Saída: 5&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tipos em GOLANG</title>
+      <link>https://gustavobuenoblog.netlify.app/4post/</link>
+      <pubDate>Wed, 25 Sep 2024 20:30:24 +0100</pubDate>
+      <guid>https://gustavobuenoblog.netlify.app/4post/</guid>
+      <description>&lt;h1 id=&#34;tipos-básicos&#34;&gt;Tipos básicos&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tipos Numéricos Inteiros&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;int - inteiro&lt;/li&gt;&#xA;&lt;li&gt;uint - inteiro sem sinal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tipos Numéricos de Ponto Flutuante&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;float32 ou float64&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Booleanos&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;bool&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Strings&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;string&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;tamanho-das-variáveis&#34;&gt;Tamanho das variáveis&lt;/h1&gt;&#xA;&lt;p&gt;Podemos especificar o tamanho das variáveis em bits: int8, int16, int32, int64&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;como-criar-um-tipo&#34;&gt;Como criar um tipo&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main&#xA;&#xA;import &amp;#34;fmt&amp;#34;&#xA;&#xA;type ID string&#xA;&#xA;func main() {&#xA;&#x9;var palavra ID = &amp;#34;IDteste&amp;#34;&#xA;&#xA;&#x9;fmt.Println(palavra)&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Escreva type (nome do tipo) (tipo)&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;como-printar-uma-variável-baseado-em-seu-tipo&#34;&gt;Como printar uma variável baseado em seu tipo&lt;/h1&gt;&#xA;&lt;p&gt;Principais:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Declaração e atribuição de variáveis em GOLANG</title>
       <link>https://gustavobuenoblog.netlify.app/3post/</link>

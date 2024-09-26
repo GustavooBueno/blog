@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=Blog&#32;sobre&#32;tecnologia&#32;e&#32;livros>
+  <meta name="description" content=Aprendendo&#32;sobre&#32;arrays&#32;em&#32;GO>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
-  <title>Categories</title>
+  <title>Arrays em GOLANG</title>
 </head>
 <body>
   <div class="container">
@@ -78,18 +78,61 @@
   </div>
 </nav>
 
-     
- 
+    
+<div class="single">
+  <div class="singleHead">
+    <div class="singleHeadTexts">
+      <h1 class="singleHeadTitle">Arrays em GOLANG</h1>
+      <p class="singleHeadDesc">Aprendendo sobre arrays em GO</p>
+      <div class="singleHeadDetail">
+        <img src=/images/avatar1.jpeg loading="lazy" alt="" class="singleAvatar">
+        <span>
+          <a href=https://gustavobuenoblog.netlify.app/authors/gustavo-bueno/>Gustavo Bueno</a>
+          
+        </span>
+        
+        <a href=https://gustavobuenoblog.netlify.app/categories/golang/ class="singleCategory">golang</a>
+        
+        <a href=https://gustavobuenoblog.netlify.app/categories/tech/ class="singleCategory">tech</a>
+        
+      </div>
+      <time>Sep 25, 2024</time>
+    </div>
+    <img src=/images/p5golang.png alt=Arrays&#32;em&#32;GOLANG class="singleHeadImg">
+  </div>
+  <div class="singleBottom">
+    <div class="singleContent"><h1 id="definição">Definição</h1>
+<p>Em Golang, arrays são uma coleção de elementos do mesmo tipo com tamanho fixo, definidos no momento da declaração.</p>
+<hr>
+<h1 id="sintaxe-básica">Sintaxe básica</h1>
+<p>Modelo:</p>
+<p><code>var nomeArray [tamanho]tipo</code></p>
+<p>Exemplo:</p>
+<p><code>var numeros [5]int</code></p>
+<hr>
+<h1 id="inicialização">Inicialização</h1>
+<p>Podemos inicializar os elementos do array no momento da declaração</p>
+<p><code>var letras = [3]string{&quot;a&quot;, &quot;b&quot;, &quot;c&quot;}</code></p>
+<hr>
+<h1 id="como-acessar-os-elementos">Como acessar os elementos</h1>
+<p>Você pode acessar e modificar os elementos de um array usando o índice (começando em 0)</p>
+<pre tabindex="0"><code>numeros[0] = 10   // Altera o primeiro elemento do array para 10
+fmt.Println(numeros[0])  // Exibe o valor do primeiro elemento
+</code></pre><hr>
+<h1 id="comprimento-de-arrays">Comprimento de arrays</h1>
+<p><code>fmt.Println(len(numeros))  // Saída: 5</code></p>
+<p>A função len pode ser usada para obter o comprimento (número de elementos) de um array</p>
+<hr>
+<h1 id="arrays-são-de-tamanhos-fixos">Arrays são de tamanhos fixos</h1>
+<p>Um ponto importante sobre arrays em Go é que seu tamanho é imutável após a criação. Arrays de tamanhos diferentes são considerados tipos diferentes. Se você precisar de uma coleção dinâmica de elementos, deve usar slices em vez de arrays. O próximo post será sobre eles.<img src="image.png" alt="alt text"></p>
+</div>
+    <div class="singleRightBar">
+      <div class="rightBar">
+</div>
+    </div>
+  </div>
+</div>
 
-  <a href="/categories/golang">
-    # golang <small>(5)</small>
-  </a>
-
-  <a href="/categories/tech">
-    # tech <small>(5)</small>
-  </a>
-
- 
     <div class="footer">
   <div class="footerLinks">
     <a href="/">gustavo blog</a> | <a href="/categories">categories</a>

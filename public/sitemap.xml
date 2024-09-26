@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gustavobuenoblog.netlify.app/5post/</loc>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
+  </url><url>
     <loc>https://gustavobuenoblog.netlify.app/authors/</loc>
-    <lastmod>2024-09-24T08:30:24+01:00</lastmod>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
   </url><url>
     <loc>https://gustavobuenoblog.netlify.app/categories/</loc>
-    <lastmod>2024-09-24T08:30:24+01:00</lastmod>
-  </url><url>
-    <loc>https://gustavobuenoblog.netlify.app/3post/</loc>
-    <lastmod>2024-09-24T08:30:24+01:00</lastmod>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
   </url><url>
     <loc>https://gustavobuenoblog.netlify.app/categories/golang/</loc>
-    <lastmod>2024-09-24T08:30:24+01:00</lastmod>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
   </url><url>
     <loc>https://gustavobuenoblog.netlify.app/authors/gustavo-bueno/</loc>
-    <lastmod>2024-09-24T08:30:24+01:00</lastmod>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
   </url><url>
     <loc>https://gustavobuenoblog.netlify.app/</loc>
-    <lastmod>2024-09-24T08:30:24+01:00</lastmod>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
   </url><url>
     <loc>https://gustavobuenoblog.netlify.app/categories/tech/</loc>
+    <lastmod>2024-09-25T21:30:24+01:00</lastmod>
+  </url><url>
+    <loc>https://gustavobuenoblog.netlify.app/4post/</loc>
+    <lastmod>2024-09-25T20:30:24+01:00</lastmod>
+  </url><url>
+    <loc>https://gustavobuenoblog.netlify.app/3post/</loc>
     <lastmod>2024-09-24T08:30:24+01:00</lastmod>
   </url><url>
     <loc>https://gustavobuenoblog.netlify.app/2post/</loc>
